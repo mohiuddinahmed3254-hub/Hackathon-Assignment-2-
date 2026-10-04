@@ -23,8 +23,10 @@ int main()
         printf("eight");
     else if (n == 9)
         printf("nine");
+    else if (n > 9 && n % 2 == 0)
+        printf("even");
     else
-        printf("Greater than 9");
+        printf("odd");
 
     return 0;
 }
